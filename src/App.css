@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+  /* dark frosted background */
+  background: linear-gradient(135deg, rgba(15, 15, 15, 0.95), rgba(25, 25, 25, 0.95));
+  color: #f5f5f5;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* main app wrapper */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+
+  background: rgba(18, 16, 14, 0.55);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 30px;
+
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* sections */
+.current-weather,
+.forecast {
+  margin-top: 24px;
+}

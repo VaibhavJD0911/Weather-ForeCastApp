@@ -1,0 +1,99 @@
+.accordion-item {
+  margin: 10px 0;
+  border-radius: 12px;
+  overflow: hidden;
+
+  background: rgba(18, 16, 14, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  color: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.55);
+}
+
+.accordion-button {
+  width: 100%;
+  padding: 14px 20px;
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f5f5f5;
+}
+
+.accordion-button:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.daily-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.day {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.description {
+  font-size: 0.9rem;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: auto;
+  margin-right: 12px;
+}
+
+.icon-small {
+  font-size: 1.8rem;
+  color: #00bcd4;
+}
+
+.min-max {
+  font-weight: 600;
+  color: #00bcd4;
+}
+
+.accordion-panel {
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 14px 20px;
+
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.daily-details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px 20px;
+  margin-top: 10px;
+}
+
+.daily-details-grid-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.detail-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.detail-value {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
